@@ -1,0 +1,2 @@
+[{'active': True, 'name': 'rf', 'Detektyw': 75, 'Mafia': 75}{'active': True, 'name': 'try', 'Detektyw': 75, 'Mafia': 75}]
+[['Detektyw', 1, 75, 40, 150]['Mafia', 2, 75, 40, 150]]

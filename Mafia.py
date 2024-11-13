@@ -1,6 +1,8 @@
 import random
 import tkinter as tk
 import os
+# i will be fixing it soon
+
 def add_player(name):
     global chances
     global roles

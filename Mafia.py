@@ -33,7 +33,7 @@ def delete_role(name):
         id+=1
     return (f"Role {name} succesfully deleted")
         
-def suspend_player(name):
+def suspend_player(name): # definition to suspend player
     global chances
     global roles
     for i in chances:

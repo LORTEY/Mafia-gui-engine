@@ -1,1 +1,1 @@
-Readme file will be documented soon
+A python graphical engine for playing mafia with friends

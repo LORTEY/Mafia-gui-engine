@@ -4,6 +4,7 @@ import os
 # i will be fixing it soon
 
 def add_player(name):
+    #add player to the game
     global chances
     global roles
     default = {"active":True, "name":name}
@@ -13,6 +14,7 @@ def add_player(name):
     return (f"Player {name} succesfully added")
     
 def add_role(name, seats, starting_chances, minimal_chances, maximal_chaances):
+    #add another role to the game
     global chances
     global roles
     roles.append([name, seats,starting_chances, minimal_chances, maximal_chaances])
@@ -21,6 +23,7 @@ def add_role(name, seats, starting_chances, minimal_chances, maximal_chaances):
     return (f"Role {name} succesfully added")
     
 def delete_role(name):
+    #delete one of the existing roles by name
     global chances
     global roles
     for i in chances:

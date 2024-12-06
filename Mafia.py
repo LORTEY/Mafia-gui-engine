@@ -20,7 +20,7 @@ def add_role(name, seats, starting_chances, minimal_chances, maximal_chaances):
     roles.append([name, seats,starting_chances, minimal_chances, maximal_chaances])
     for i in chances:
         i[name] = starting_chances
-    return (f"Role {name} succesfully added")
+    return (f"Role {name} was succesfully added")
     
 def delete_role(name):
     #delete one of the existing roles by name

@@ -1,1 +1,1 @@
-A Python graphical application for playing mafia with friends. My first gui application ever.
+A Python graphical application for playing mafia with friends. My first gui application ever. Wow i was so bad at writing code... not that currently I am much better than that.
